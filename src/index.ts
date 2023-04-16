@@ -11,7 +11,7 @@ const client = new Client({
 })
 
 client.on('ready', () => {
-  console.log('bot is on')
+  console.log('listening')
 })
 
 client.on('messageCreate', async (message) => {
